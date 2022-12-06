@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+<script src="/public/js/form.js"></script>
+
+<body>
+    <div class="login-card">
+        <img href="/public/index.html" src="/public/img/dark-logo.png" class="logo-small" alt="">
+        <h2>Login</h2>
+        <h3>Enter your credentials</h3>
+        <form class="login-form">
+            <input spellcheck="false" class="control" type="text" id="name" placeholder="Email" />
+            <div class="password">
+                <input spellcheck="false" class="control" id="password" type="password" placeholder="Password" />
+                <button class="toggle" type="button" onclick="togglePassword(this)"></button>
+            </div>
+            <button id="submit-btn" class="control" type="button" onclick="validate()">LOGIN</button>
+            <a class="colour" href="#">Forget Your Password?</a>
+            <p>
+                Don't have an account? <a href="../signup/signup.html">signup here</a>
+            </p>
+        </form>
+    </div>
+
+</body>
+
+</html>

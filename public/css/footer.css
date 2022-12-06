@@ -1,0 +1,111 @@
+footer{
+    position: relative;
+    width: 100%;
+    padding: 40px 10vw;
+    padding-bottom: 80px;
+    background: #383838;
+    height: 100%;
+}
+
+.footer-content{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.footer-content{
+    height: 500px;
+    align-items: center;
+    padding: 10px;
+
+}
+.logo{
+    height: 200px;
+    align-items: center;
+    padding: 0px;
+}
+
+.contact{
+    grid-column: span 2;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.detail {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.75);
+    padding: 5px;
+  
+}
+
+.details {
+    width: 95%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #d1d1d1;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.submit{
+    width: 15%;
+    height: 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #ffffff;
+    color: rgb(0, 0, 0);;
+    font-size: 15px;
+    margin-top: 0px; 
+    margin-bottom: 16px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0px white;
+}
+
+.footer-ul-container .contact{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category {
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    list-style: none;
+    color: #fff;
+}
+
+.category-title{
+    grid-column: span 2;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.category .footer-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-link:hover{
+    color: #fff;
+}
